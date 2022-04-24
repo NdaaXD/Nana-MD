@@ -54,7 +54,7 @@ const defaultMenu = {
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
+*NdaaBotz-MD@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -164,18 +164,18 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedContentText: text.trim(),
            locationMessage: { 
            jpegThumbnail: fs.readFileSync('./src/nana2.jpg') },
-           hydratedFooterText: 'Nana-MD',
+           hydratedFooterText: 'NdaaBotzMD',
            hydratedButtons: [{ 
              urlButton: {
-               displayText: 'Source Code',
-               url: 'https://github.com/adulalhy/Nana-MD'
+               displayText: 'Github',
+               url: 'https://github.com/NdaaXD'
              }
 
            },
                {
              callButton: {
                displayText: 'Call Owner',
-               phoneNumber: '123'
+               phoneNumber: '628214561461'
              }
            },
                {
